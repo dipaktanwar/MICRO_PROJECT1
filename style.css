@@ -81,6 +81,27 @@ body{
         .img:hover{
             border: 2px solid blue;
         }
+
+/* Responsive styles for mobile */
+@media only screen and (max-width: 768px) {
+    .main {
+        flex-wrap: wrap;
+    }
+    
+    .right, .left2 {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .second, .first {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .main2 {
+        flex-wrap: wrap;
+    }
+}
         
         
 
